@@ -3,10 +3,7 @@
     <div class="site-container flex flex-wrap items-center">
       <div class="w-1/2 lg:w-1/3">
         <router-link to="/">
-          <img
-            src="@/assets/img/logo/binus-logo.png"
-            alt="Logo"
-            class="w-[100px]" />
+          <img src="/img/logo/binus-logo.png" alt="Logo" class="w-[100px]" />
         </router-link>
       </div>
       <div class="w-2/3 hidden lg:block">

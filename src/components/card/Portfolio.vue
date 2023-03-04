@@ -22,9 +22,7 @@
           </template>
         </swiper>
       </div> -->
-      <img
-        :src="`@/assets/img/static/portfolio/${item.img}`"
-        alt="Projects Image" />
+      <img :src="`/img/static/portfolio/${item.img}`" alt="Projects Image" />
       <div class="card-portfolio__img--tag">
         <p>{{ item.tag }}</p>
       </div>
@@ -36,7 +34,10 @@
       By: <span>{{ item.author }}</span>
     </p>
     <div class="card-portfolio__button">
-      <router-link :to="'/'" class="card-portfolio__button--wrapper">
+      <a
+        :href="`${item.demoLink}`"
+        target="__blank"
+        class="card-portfolio__button--wrapper">
         <p class="card-portfolio__button--wrapper__text">Demo</p>
         <svg
           class="card-portfolio__button--wrapper__icon"
@@ -51,8 +52,11 @@
             stroke-linecap="square"
             stroke-linejoin="round" />
         </svg>
-      </router-link>
-      <router-link :to="'/'" class="card-portfolio__button--wrapper">
+      </a>
+      <a
+        :href="`${item.dashboardLink}`"
+        target="__blank"
+        class="card-portfolio__button--wrapper">
         <p class="card-portfolio__button--wrapper__text">Dashboard</p>
         <svg
           class="card-portfolio__button--wrapper__icon"
@@ -67,7 +71,7 @@
             stroke-linecap="square"
             stroke-linejoin="round" />
         </svg>
-      </router-link>
+      </a>
     </div>
     <!-- </nuxt-link> -->
   </div>

@@ -1,5 +1,5 @@
 .navbar {
-  @apply w-full py-4;
+  @apply w-full fixed top-0 py-4 bg-white z-[999];
   &--item {
     &__text {
       @apply font-normal text-base transition-all;
