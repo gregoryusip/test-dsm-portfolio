@@ -81,20 +81,22 @@ export default {
           id: '3',
           img: ['portfolio-3.png'],
           title:
-            'Decision Support Model Based on Fuzzy Logic To Determine Employee Salary',
+            'Decision Support Model for Software Project Team Recruitment Based on Personality Type and Soft Skill',
           author: 'Rizky Martin',
           date: '25 December, 2022',
-          tag: 'Fuzzy Guzzy',
+          tag: 'Fuzzy Clustering',
           demoLink: 'https://martin-model-7sybag4rtq-et.a.run.app/',
-          dashboardLink: 'https://gdsm-web-hsqjl336wq-uc.a.run.app/',
+          dashboardLink:
+            'https://app.powerbi.com/view?r=eyJrIjoiNDhhY2RhZDEtNDhiNi00NTY3LWI5M2ItZDRlMDkzMmU2YzczIiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9dc4d1529f22b55a3ba4',
         },
         {
           id: '4',
           img: ['portfolio-4.png'],
-          title: 'Decision Support Model for Determine Green City in Indonesia',
+          title:
+            'Decision Support Model based on Multi-Stage Fuzzy Logic for Determining Green Cities in Indonesia',
           author: "Joshua La'la",
           date: '25 December, 2022',
-          tag: 'Fuzzy AHP',
+          tag: 'Multistage Fuzzy Logic',
           demoLink: 'https://joshua-model-7sybag4rtq-et.a.run.app/',
           dashboardLink:
             'https://app.powerbi.com/view?r=eyJrIjoiYzQxNWFkODAtNTA5Ni00MDViLWIyZjktNGI2NDQxMDliMDg3IiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D',
