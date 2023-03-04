@@ -1,0 +1,17 @@
+.navbar {
+  @apply w-full py-4;
+  &--item {
+    &__text {
+      @apply font-normal text-base transition-all;
+      &:hover {
+        @apply text-primary-one;
+      }
+      &--active {
+        @apply underline underline-offset-4 text-primary-one;
+      }
+    }
+    &__icon {
+      @apply w-5 h-5;
+    }
+  }
+}

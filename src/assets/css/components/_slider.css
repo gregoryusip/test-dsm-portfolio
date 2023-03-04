@@ -1,0 +1,7 @@
+.slider-container {
+  @apply w-full h-full;
+
+  &--wrapper {
+    @apply w-full h-full rounded-t-3xl lg:rounded-t-[62px];
+  }
+}
