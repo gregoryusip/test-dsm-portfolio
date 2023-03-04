@@ -63,7 +63,7 @@ export default {
           author: 'Gregoryus Imannuel Perdana',
           date: '26 December, 2022',
           tag: 'Multistage Fuzzy Logic',
-          demoLink: 'https://greg-model-hsqjl336wq-uc.a.run.app/',
+          demoLink: 'https://greg-model-7sybag4rtq-et.a.run.app/',
           dashboardLink: 'https://dashboard-salary.vercel.app/',
         },
         {
@@ -74,8 +74,8 @@ export default {
           author: 'Muhammad Donny devanda',
           date: '22 December, 2022',
           tag: 'Multistage Fuzzy Logic',
-          demoLink: 'https://gdsm-web-hsqjl336wq-uc.a.run.app/import_data',
-          dashboardLink: 'https://gdsm-web-hsqjl336wq-uc.a.run.app/',
+          demoLink: 'https://gdsm-web-7sybag4rtq-et.a.run.app/import_data',
+          dashboardLink: 'https://gdsm-web-7sybag4rtq-et.a.run.app/',
         },
         {
           id: '3',
@@ -85,7 +85,7 @@ export default {
           author: 'Rizky Martin',
           date: '25 December, 2022',
           tag: 'Fuzzy Guzzy',
-          demoLink: 'https://martin-model-hsqjl336wq-uc.a.run.app/',
+          demoLink: 'https://martin-model-7sybag4rtq-et.a.run.app/',
           dashboardLink: 'https://gdsm-web-hsqjl336wq-uc.a.run.app/',
         },
         {
@@ -95,7 +95,7 @@ export default {
           author: "Joshua La'la",
           date: '25 December, 2022',
           tag: 'Fuzzy AHP',
-          demoLink: 'https://joshua-model-hsqjl336wq-uc.a.run.app/',
+          demoLink: 'https://joshua-model-7sybag4rtq-et.a.run.app/',
           dashboardLink:
             'https://app.powerbi.com/view?r=eyJrIjoiYzQxNWFkODAtNTA5Ni00MDViLWIyZjktNGI2NDQxMDliMDg3IiwidCI6IjM0ODViOTYzLTgyYmEtNGE2Zi04MTBmLWI1Y2MyMjZmZjg5OCIsImMiOjEwfQ%3D%3D',
         },
