@@ -21,7 +21,7 @@
               :src="`/img/static/portfolio/${portfolioDetail.thumbnail_img}`"
               alt="Portfolio Image"
               class="portfolio-detail--model__left--thumbnail" />
-            <p class="portfolio-detail--model__left--subtitle">
+            <p class="portfolio-detail--model__left--description">
               {{ portfolioDetail.description }}
             </p>
             <div class="portfolio-detail--portfolio">

@@ -78,6 +78,10 @@
           @apply border-[1px] border-primary-two my-8;
         }
 
+        &--description {
+          @apply text-justify;
+        }
+
         &--flow {
           @apply text-center mt-10 mb-20;
 
@@ -90,14 +94,15 @@
         }
 
         &--author {
-          @apply w-full border-t-[1px] border-b-[1px] border-primary-three py-6 flex items-center;
+          @apply w-full border-t-[1px] border-b-[1px] border-primary-three py-6 flex  md:items-center;
 
           &__img {
             @apply w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded-full object-cover;
           }
           &__information {
-            @apply pl-10;
-            width: calc(100% - 150px);
+            @apply pl-4 md:pl-10;
+
+            width: calc(100% - 100px);
           }
         }
       }
