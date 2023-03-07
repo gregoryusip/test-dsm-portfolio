@@ -1,5 +1,5 @@
 <template>
-  <div class="card-portfolio">
+  <router-link :to="`/portfolio/${item.id}`" class="card-portfolio">
     <!-- <nuxt-link :to="`/blogs/${item.id}`"> -->
     <div class="card-portfolio__img">
       <!-- <div class="slider-container">
@@ -22,7 +22,9 @@
           </template>
         </swiper>
       </div> -->
-      <img :src="`/img/static/portfolio/${item.img}`" alt="Projects Image" />
+      <img
+        :src="`/img/static/portfolio/${item.thumbnail_img}`"
+        alt="Projects Image" />
       <div class="card-portfolio__img--tag">
         <p>{{ item.tag }}</p>
       </div>
@@ -34,11 +36,10 @@
       By: <span>{{ item.author }}</span>
     </p>
     <div class="card-portfolio__button">
-      <a
-        :href="`${item.demoLink}`"
-        target="__blank"
+      <router-link
+        :to="`/portfolio/${item.id}`"
         class="card-portfolio__button--wrapper">
-        <p class="card-portfolio__button--wrapper__text">Demo</p>
+        <p class="card-portfolio__button--wrapper__text">Detail</p>
         <svg
           class="card-portfolio__button--wrapper__icon"
           width="19"
@@ -52,8 +53,8 @@
             stroke-linecap="square"
             stroke-linejoin="round" />
         </svg>
-      </a>
-      <a
+      </router-link>
+      <!-- <a
         :href="`${item.dashboardLink}`"
         target="__blank"
         class="card-portfolio__button--wrapper">
@@ -71,10 +72,10 @@
             stroke-linecap="square"
             stroke-linejoin="round" />
         </svg>
-      </a>
+      </a> -->
     </div>
     <!-- </nuxt-link> -->
-  </div>
+  </router-link>
 </template>
 
 <script>
