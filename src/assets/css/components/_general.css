@@ -57,3 +57,72 @@
     }
   }
 }
+
+.portfolio {
+  @apply w-full;
+
+  &-detail {
+    @apply w-full;
+
+    &--model {
+      @apply w-full flex flex-wrap flex-col-reverse md:flex-row justify-center items-center;
+
+      &__left {
+        @apply w-full lg:w-9/12 lg:pr-8;
+
+        &--title {
+          @apply text-center;
+        }
+
+        &--thumbnail {
+          @apply border-[1px] border-primary-two my-8;
+        }
+
+        &--flow {
+          @apply text-center mt-10 mb-20;
+
+          &__title {
+            @apply mb-10;
+          }
+          &__img {
+            @apply w-fit mx-auto;
+          }
+        }
+
+        &--author {
+          @apply w-full border-t-[1px] border-b-[1px] border-primary-three py-6 flex items-center;
+
+          &__img {
+            @apply w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded-full object-cover;
+          }
+          &__information {
+            @apply pl-10;
+            width: calc(100% - 150px);
+          }
+        }
+      }
+      &__right {
+        @apply w-full lg:w-3/12;
+      }
+    }
+
+    &--portfolio {
+      @apply flex flex-wrap justify-center items-center -mx-5 mt-10;
+
+      &__demo {
+        @apply w-full md:w-1/2 2xl:w-5/12 px-5;
+      }
+    }
+  }
+}
+
+.button-back {
+  @apply w-full flex items-center mb-16;
+
+  &--icon {
+    @apply mr-2 rotate-180;
+  }
+  &--text {
+    @apply font-semibold text-base text-primary-two;
+  }
+}
