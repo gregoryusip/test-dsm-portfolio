@@ -6,7 +6,7 @@
       @apply w-full h-[200px] xl:h-[280px] relative overflow-hidden p-5;
 
       img {
-        @apply w-full h-full object-cover rounded-t-3xl lg:rounded-t-[62px];
+        @apply w-full h-full object-cover rounded-t-3xl lg:rounded-t-[62px] border-[1px] border-primary-two;
       }
 
       &--tag {
@@ -52,10 +52,10 @@
   }
 
   &-detail--portfolio {
-    @apply w-full flex flex-col;
+    @apply w-full flex flex-col mb-4 lg:mb-0;
 
     &__img {
-      @apply w-full h-[200px] object-cover;
+      @apply w-full h-[200px] object-cover border-[1px] border-primary-two;
     }
     &__button {
       @apply w-full font-medium text-lg text-primary-two stroke-primary-two flex justify-center items-center  gap-x-2 px-2 py-3 transition-all duration-300 cursor-pointer;
