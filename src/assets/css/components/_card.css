@@ -31,7 +31,7 @@
       @apply w-full flex flex-wrap justify-center;
 
       &--wrapper {
-        @apply w-1/2 font-medium text-lg text-primary-two stroke-primary-two flex justify-center items-center border-t-[1px] border-t-primary-one gap-x-2 px-2 py-3 transition-all duration-300;
+        @apply w-full font-medium text-lg text-primary-two stroke-primary-two flex justify-center items-center border-t-[1px] border-t-primary-one gap-x-2 px-2 py-3 transition-all duration-300;
 
         &__icon {
           @apply transition-all duration-300;
@@ -47,6 +47,28 @@
         &:hover &__icon {
           @apply translate-x-2;
         }
+      }
+    }
+  }
+
+  &-detail--portfolio {
+    @apply w-full flex flex-col;
+
+    &__img {
+      @apply w-full h-[200px] object-cover;
+    }
+    &__button {
+      @apply w-full font-medium text-lg text-primary-two stroke-primary-two flex justify-center items-center  gap-x-2 px-2 py-3 transition-all duration-300 cursor-pointer;
+
+      &__icon {
+        @apply transition-all duration-300;
+      }
+
+      &:hover {
+        @apply bg-primary-two text-primary-one stroke-primary-one;
+      }
+      &:hover &__icon {
+        @apply translate-x-2;
       }
     }
   }
