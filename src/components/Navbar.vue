@@ -58,6 +58,7 @@
 
     <!-- BURGER MENU -->
     <div
+      v-if="isBurgerMenuDown"
       class="navbar-burger"
       :class="{
         'h-[100vh] opacity-100': isBurgerMenuDown,
