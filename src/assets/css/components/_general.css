@@ -65,7 +65,7 @@
     @apply w-full;
 
     &--model {
-      @apply relative w-full flex flex-wrap flex-col-reverse md:flex-row justify-center;
+      @apply relative w-full flex flex-wrap flex-col md:flex-row justify-center;
 
       &__left {
         @apply w-full lg:w-9/12 h-full lg:pr-8;
@@ -115,7 +115,7 @@
         }
       }
       &__right {
-        @apply w-full lg:w-3/12 h-fit sticky top-32  md:pl-4;
+        @apply w-full lg:w-3/12 h-fit lg:sticky lg:top-32 lg:pl-8 mt-10 lg:mt-0;
 
         &--others {
           @apply w-full;
