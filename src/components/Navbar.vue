@@ -3,7 +3,7 @@
     class="navbar transition-all duration-300"
     :class="{ 'shadow-md': isScroll }">
     <div class="site-container navbar-wrapper">
-      <router-link to="/src" class="navbar-wrapper--left">
+      <router-link to="/" class="navbar-wrapper--left">
         <img src="/img/logo/binus-logo.png" alt="Logo" class="navbar-logo" />
         <img src="/img/logo/rig.png" alt="Logo" class="navbar-logo mt-2" />
       </router-link>
