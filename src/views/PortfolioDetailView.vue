@@ -35,7 +35,7 @@
                     :href="portfolioDetail.demoLink"
                     target="__blank"
                     class="card-detail--portfolio__button">
-                    <p class="card-detail--portfolio__button__text">Demo</p>
+                    <p class="card-detail--portfolio__button__text">Model</p>
                     <svg
                       class="card-detail--portfolio__button__icon"
                       width="19"
