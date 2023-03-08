@@ -5,11 +5,23 @@
     "demo_img": "demo-1.png",
     "dashboard_img": "dashboard-1.png",
     "flowchart_img": "flowchart-1.jpg",
-    "author_img": "gregoryus.jpg",
+    "authors": [
+      {
+        "image": "gregoryus.jpg",
+        "name": "Gregoryus Imannuel Perdana, S.Kom, M.Kom",
+        "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
+      }
+    ],
+    "supervisors": [
+      {
+        "image": "ditdit.jpg",
+        "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
+        "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
+      }
+    ],
     "title": "Decision Support Model To Determine Employee Salary",
     "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
-    "author": "Gregoryus Imannuel Perdana",
-    "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods.",
+    "author": "Gregoryus Imannuel Perdana, S.Kom, M.Kom",
     "date": "26 December, 2022",
     "tag": "Multistage Fuzzy Logic",
     "demoLink": "https://greg-model-7sybag4rtq-et.a.run.app/",
@@ -21,11 +33,23 @@
     "demo_img": "demo-2.png",
     "dashboard_img": "dashboard-2.png",
     "flowchart_img": "flowchart-1.jpg",
-    "author_img": "donny.jpg",
+    "authors": [
+      {
+        "image": "donny.jpg",
+        "name": "Muhammad Donny Devanda, S.Kom, M.Kom",
+        "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
+      }
+    ],
+    "supervisors": [
+      {
+        "image": "ditdit.jpg",
+        "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
+        "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
+      }
+    ],
     "title": "Group Decision Support Model for Tech-Based Startup Funding",
     "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
     "author": "Muhammad Donny Devanda",
-    "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods.",
     "date": "22 December, 2022",
     "tag": "Multistage Fuzzy Logic",
     "demoLink": "https://gdsm-web-7sybag4rtq-et.a.run.app/import_data",
@@ -37,11 +61,23 @@
     "demo_img": "demo-3.png",
     "dashboard_img": "dashboard-3.png",
     "flowchart_img": "flowchart-1.jpg",
-    "author_img": "martin.jpg",
+    "authors": [
+      {
+        "image": "martin.jpg",
+        "name": "Rizky Martin, S.Kom, M.Kom",
+        "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
+      }
+    ],
+    "supervisors": [
+      {
+        "image": "ditdit.jpg",
+        "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
+        "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
+      }
+    ],
     "title": "Decision Support Model for Software Project Team Recruitment Based on Personality Type and Soft Skill",
     "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
     "author": "Rizky Martin",
-    "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods.",
     "date": "25 December, 2022",
     "tag": "Fuzzy Clustering",
     "demoLink": "https://martin-model-7sybag4rtq-et.a.run.app/",
@@ -53,11 +89,23 @@
     "demo_img": "demo-4.png",
     "dashboard_img": "dashboard-4.png",
     "flowchart_img": "flowchart-1.jpg",
-    "author_img": "joshua.jpg",
+    "authors": [
+      {
+        "image": "joshua.jpg",
+        "name": "Joshua La'la, S.Kom, M.Kom",
+        "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
+      }
+    ],
+    "supervisors": [
+      {
+        "image": "ditdit.jpg",
+        "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
+        "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
+      }
+    ],
     "title": "Decision Support Model for Determining Green Cities in Indonesia",
     "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
     "author": "Joshua La'la",
-    "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods.",
     "date": "25 December, 2022",
     "tag": "Multistage Fuzzy Logic",
     "demoLink": "https://joshua-model-7sybag4rtq-et.a.run.app/",
@@ -69,11 +117,23 @@
     "demo_img": "demo-5.png",
     "dashboard_img": "dashboard-5.png",
     "flowchart_img": "flowchart-1.jpg",
-    "author_img": "darwin.jpg",
+    "authors": [
+      {
+        "image": "darwin.jpg",
+        "name": "Darwin Samalo, S.Kom, M.Kom",
+        "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
+      }
+    ],
+    "supervisors": [
+      {
+        "image": "ditdit.jpg",
+        "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
+        "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
+      }
+    ],
     "title": "Decision Support Model To Determine Tweet Category",
     "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
     "author": "Darwin Samalo",
-    "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods.",
     "date": "25 December, 2022",
     "tag": "Fuzzy Logic",
     "demoLink": "https://darwin-model-7sybag4rtq-et.a.run.app/",
