@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'portfolio-detail',
       component: PortfolioDetailView,
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('@/views/NotFound.vue'),
+    },
   ],
 });
 
