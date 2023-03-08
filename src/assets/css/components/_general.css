@@ -65,10 +65,10 @@
     @apply w-full;
 
     &--model {
-      @apply w-full flex flex-wrap flex-col-reverse md:flex-row justify-center items-center;
+      @apply relative w-full flex flex-wrap flex-col-reverse md:flex-row justify-center;
 
       &__left {
-        @apply w-full lg:w-9/12 lg:pr-8;
+        @apply w-full lg:w-9/12 h-full lg:pr-8;
 
         &--title {
           @apply text-center;
@@ -115,7 +115,15 @@
         }
       }
       &__right {
-        @apply w-full lg:w-3/12;
+        @apply w-full lg:w-3/12 h-fit sticky top-32  md:pl-4;
+
+        &--others {
+          @apply w-full;
+
+          &__wrapper {
+            @apply w-full;
+          }
+        }
       }
     }
 

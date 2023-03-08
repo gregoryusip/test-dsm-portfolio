@@ -134,11 +134,24 @@
               </div>
             </div>
           </div>
-          <!-- <div class="portfolio-detail--model__right">
-            <img
-              src="/img/static/portfolio/portfolio-1.png"
-              alt="Portfolio Image" />
-          </div> -->
+          <div class="portfolio-detail--model__right">
+            <div class="portfolio-detail--model__right--others">
+              <h3>Other Portfolios</h3>
+              <div class="portfolio-detail--model__right--others__wrapper">
+                <div
+                  v-for="(other, i) in otherPortfolio"
+                  :key="`other-${i}`"
+                  class="card-other--portfolio">
+                  <router-link :to="`/portfolio/${other.id}`">
+                    <h6 class="card-other--portfolio__title">
+                      {{ other.title }}
+                    </h6>
+                    <p class="card-other--portfolio__date">{{ other.date }}</p>
+                  </router-link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -160,6 +173,26 @@ export default {
 
       if (id) {
         return this.portfolios.find((res) => res.id === id);
+      }
+    },
+    otherPortfolio() {
+      if (this.portfolioDetail) {
+        let arr = this.portfolios.filter(
+          (res) => res.id !== this.portfolioDetail.id
+        );
+
+        if (arr.length > 3) {
+          let others = [];
+          for (let index = 0; index < 3; index++) {
+            const i = Math.floor(Math.random() * arr.length);
+            const element = arr[i];
+            others.push(element);
+            arr.splice(i, 1);
+          }
+          return others;
+        } else {
+          return arr;
+        }
       }
     },
   },

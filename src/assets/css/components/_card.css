@@ -73,6 +73,21 @@
     }
   }
 
+  &-other--portfolio {
+    @apply w-full py-4 border-b-[1px] border-gray-400 transition-all duration-300 cursor-pointer;
+
+    &__title {
+      @apply mb-4;
+    }
+    &__date {
+      @apply text-right;
+    }
+
+    &:hover {
+      @apply border-primary-one pl-4;
+    }
+  }
+
   &-latest-articles {
     @apply w-full pt-8 pb-2 border-b-[1px] border-primary-three cursor-pointer transition-all duration-300;
 
