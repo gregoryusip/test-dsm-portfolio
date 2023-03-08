@@ -1,12 +1,12 @@
-@import "./components/_navbar.css";
-@import "./components/_text.css";
-@import "./components/_general.css";
-@import "./components/_card.css";
-@import "./components/_slider.css";
+@import './components/_navbar.css';
+@import './components/_text.css';
+@import './components/_general.css';
+@import './components/_card.css';
+@import './components/_slider.css';
 
 .page-enter-active,
 .page-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 2s;
 }
 .page-enter,
 .page-leave-to {
