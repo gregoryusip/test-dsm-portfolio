@@ -94,15 +94,43 @@
             </div>
 
             <div class="portfolio-detail--model__left--author">
-              <img
-                :src="`/img/static/author/${portfolioDetail.author_img}`"
-                alt="Author Image"
-                class="portfolio-detail--model__left--author__img" />
-              <div class="portfolio-detail--model__left--author__information">
-                <h5 class="mb-2">{{ portfolioDetail.author }}</h5>
-                <p>
-                  {{ portfolioDetail.biography }}
-                </p>
+              <h3 class="portfolio-detail--model__left--author__creator">
+                CREATOR
+              </h3>
+              <div
+                v-for="(author, i) in portfolioDetail.authors"
+                :key="`author-${i}`"
+                class="portfolio-detail--model__left--author__item">
+                <img
+                  :src="`/img/static/author/${author.image}`"
+                  alt="Author Image"
+                  class="portfolio-detail--model__left--author__item--img" />
+                <div
+                  class="portfolio-detail--model__left--author__item--information">
+                  <h5 class="mb-2">{{ author.name }}</h5>
+                  <p>
+                    {{ author.biography }}
+                  </p>
+                </div>
+              </div>
+              <h3 class="portfolio-detail--model__left--author__creator">
+                SUPERVISOR
+              </h3>
+              <div
+                v-for="(supervisor, i) in portfolioDetail.supervisors"
+                :key="`author-${i}`"
+                class="portfolio-detail--model__left--author__item">
+                <img
+                  :src="`/img/static/author/${supervisor.image}`"
+                  alt="Author Image"
+                  class="portfolio-detail--model__left--author__item--img" />
+                <div
+                  class="portfolio-detail--model__left--author__item--information">
+                  <h5 class="mb-2">{{ supervisor.name }}</h5>
+                  <p>
+                    {{ supervisor.biography }}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
