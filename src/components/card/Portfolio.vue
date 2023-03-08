@@ -33,7 +33,7 @@
       {{ item.title }}
     </h3>
     <p class="card-portfolio__author">
-      By: <span>{{ item.author }}</span>
+      By: <span>{{ authors }}</span>
     </p>
     <div class="card-portfolio__button">
       <router-link
@@ -120,6 +120,18 @@ export default {
         },
       },
     };
+  },
+  computed: {
+    authors() {
+      if (this.item) {
+        let author = this.item.authors.map((res) => res.name);
+        let supervisor = this.item.supervisors.map((res) => res.name);
+
+        let merge = author.concat(supervisor).join('; ');
+
+        return merge;
+      }
+    },
   },
 };
 </script>
