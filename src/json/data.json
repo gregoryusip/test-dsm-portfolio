@@ -9,17 +9,17 @@
       {
         "image": "gregoryus.jpg",
         "name": "Gregoryus Imannuel Perdana, S.Kom, M.Kom",
-        "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
+        "biography": "He was born in Tangerang, Indonesia. He studied in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
       }
     ],
     "supervisors": [
       {
-        "image": "ditdit.jpg",
+        "image": "ditdit.jpeg",
         "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
     ],
-    "title": "Decision Support Model To Determine Employee Salary",
+    "title": "Model To Determine Employee Salary (MDES)",
     "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
     "author": "Gregoryus Imannuel Perdana, S.Kom, M.Kom",
     "date": "26 December, 2022",
@@ -42,7 +42,7 @@
     ],
     "supervisors": [
       {
-        "image": "ditdit.jpg",
+        "image": "ditdit.jpeg",
         "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
@@ -70,7 +70,7 @@
     ],
     "supervisors": [
       {
-        "image": "ditdit.jpg",
+        "image": "ditdit.jpeg",
         "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
@@ -98,7 +98,7 @@
     ],
     "supervisors": [
       {
-        "image": "ditdit.jpg",
+        "image": "ditdit.jpeg",
         "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
@@ -126,7 +126,7 @@
     ],
     "supervisors": [
       {
-        "image": "ditdit.jpg",
+        "image": "ditdit.jpeg",
         "name": "Dr.rer.nat. Ditdit Nugeraha Utama, S.Kom, MMSI",
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
