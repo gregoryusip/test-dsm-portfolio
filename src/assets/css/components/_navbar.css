@@ -21,7 +21,7 @@
   }
 
   &-logo {
-    @apply w-[100px];
+    @apply h-[50px];
   }
 
   &--item {

@@ -1,0 +1,7 @@
+.footer {
+  @apply w-full border-t-[1px] border-primary-one py-4;
+
+  &-copyright {
+    @apply font-normal text-sm text-center text-primary-two;
+  }
+}
