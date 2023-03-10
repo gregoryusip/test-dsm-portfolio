@@ -2,14 +2,17 @@
 import { RouterLink, RouterView } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
 import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
   <Navbar />
 
   <transition name="route" mode="out-in">
-    <RouterView class="mt-28" />
+    <RouterView class="mt-24 lg:mt-28 min-h-screen" />
   </transition>
+
+  <Footer />
 </template>
 
 <style>
