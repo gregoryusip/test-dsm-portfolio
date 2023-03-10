@@ -7,7 +7,7 @@ import CardPortfolio from '../components/card/Portfolio.vue';
   <main>
     <div class="home">
       <!-- LANDING -->
-      <div class="site-container py-10 lg:pb-36">
+      <div class="site-container pt-10 pb-20 lg:pt-0 lg:pb-36">
         <div class="home--landing">
           <div class="home--landing__container home--landing__left">
             <h1 class="home--landing__container--title">
@@ -16,14 +16,19 @@ import CardPortfolio from '../components/card/Portfolio.vue';
             <p class="home--landing__container--subtitle">
               A decision support model (DSM) is a type of computer-based model
               that is designed and constructed to assist individuals or groups
-              in making complex decisions. It is a tool finally that helps
-              people analyze data, evaluate options, and make informed choices.
-              The goal of a DSM is to provide decision-makers with the
-              information and tools they need to make better decisions. This can
-              involve modelling data to identify patterns or trends, simulating
-              the effects of different scenarios, and providing the media to see
-              the suggested actionable decision.
+              in making complex decisions.
             </p>
+
+            <div class="home--landing__container--button">
+              <div
+                class="button button-regular"
+                @click="goToSection('section-portfolio')">
+                <p>PORTFOLIO</p>
+              </div>
+              <div class="button button-no-bg">
+                <router-link to="/about">READ MORE</router-link>
+              </div>
+            </div>
           </div>
           <div class="home--landing__container">
             <img
@@ -34,7 +39,7 @@ import CardPortfolio from '../components/card/Portfolio.vue';
         </div>
       </div>
       <!-- PORTFOLIO -->
-      <div class="site-container pb-20 lg:pb-36">
+      <div id="section-portfolio" class="site-container pb-20 lg:pb-36">
         <div class="home--portfolio">
           <h1 class="home--portfolio__title">Our Portfolio</h1>
           <p class="home--portfolio__subtitle">
@@ -63,6 +68,18 @@ export default {
     return {
       portfolios: json,
     };
+  },
+  methods: {
+    goToSection(value) {
+      const element = document.getElementById(value);
+      var top = element.offsetTop - 112;
+      console.log(top);
+      window.scrollTo({
+        top: top,
+        left: 0,
+        behavior: 'smooth',
+      });
+    },
   },
 };
 </script>
