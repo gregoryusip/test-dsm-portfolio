@@ -3,9 +3,9 @@
     <div class="card-portfolio__icon">
       <img :src="`/img/icon/icon-model-1.png`" alt="Projects Image" />
     </div>
-    <h4 class="card-portfolio__title">
+    <h6 class="card-portfolio__title">
       {{ item.title }}
-    </h4>
+    </h6>
     <p class="card-portfolio__author">
       By: <span>{{ authors }}</span>
     </p>
