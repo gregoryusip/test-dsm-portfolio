@@ -8,7 +8,7 @@ import CardPortfolioSecond from '../components/card/PortfolioSecond.vue';
   <main>
     <div class="home">
       <!-- LANDING -->
-      <div class="site-container pt-10 pb-20 lg:pt-0 lg:pb-36">
+      <div class="site-container pt-10 pb-20 lg:pt-0 lg:pb-20">
         <div class="home--landing">
           <div class="home--landing__container home--landing__left">
             <h1 class="home--landing__container--title">

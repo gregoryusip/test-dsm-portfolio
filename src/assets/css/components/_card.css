@@ -39,7 +39,7 @@
       @apply w-full flex flex-wrap justify-center;
 
       &--wrapper {
-        @apply w-full font-medium text-lg text-primary-two stroke-primary-two flex justify-center items-center border-t-[1px] border-t-primary-one gap-x-2 px-2 py-3 transition-all duration-300;
+        @apply w-full font-medium text-base text-primary-two stroke-primary-two flex justify-center items-center border-t-[1px] border-t-primary-one gap-x-2 px-2 py-3 transition-all duration-300;
 
         &__icon {
           @apply transition-all duration-300;
