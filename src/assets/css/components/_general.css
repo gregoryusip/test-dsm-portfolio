@@ -78,7 +78,7 @@
       }
 
       &--img {
-        @apply w-[90%] object-cover mx-auto lg:mx-0;
+        @apply w-full object-cover mx-auto lg:mx-0;
       }
     }
 

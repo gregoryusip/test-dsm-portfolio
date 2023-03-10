@@ -1,6 +1,7 @@
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue';
 import CardPortfolio from '../components/card/Portfolio.vue';
+import CardPortfolioSecond from '../components/card/PortfolioSecond.vue';
 </script>
 
 <template>
@@ -52,6 +53,16 @@ import CardPortfolio from '../components/card/Portfolio.vue';
               :key="`portfolio-${i}`"
               class="home--portfolio__container--wrapper">
               <CardPortfolio :item="item" />
+            </div>
+          </div>
+
+          <!-- CONTOH -->
+          <div class="home--portfolio__container mt-10">
+            <div
+              v-for="(item, i) in portfolios"
+              :key="`portfolio-${i}`"
+              class="home--portfolio__container--wrapper">
+              <CardPortfolioSecond :item="item" />
             </div>
           </div>
         </div>
