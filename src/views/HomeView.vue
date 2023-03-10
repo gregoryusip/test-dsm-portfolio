@@ -47,21 +47,21 @@ import CardPortfolioSecond from '../components/card/PortfolioSecond.vue';
             Checkout our latest portfolio of Decision Support Model
           </p>
 
-          <div class="home--portfolio__container">
+          <!-- <div class="home--portfolio__container">
             <div
               v-for="(item, i) in portfolios"
               :key="`portfolio-${i}`"
               class="home--portfolio__container--wrapper">
               <CardPortfolio :item="item" />
             </div>
-          </div>
+          </div> -->
 
           <!-- CONTOH -->
           <div class="home--portfolio__container mt-10">
             <div
               v-for="(item, i) in portfolios"
               :key="`portfolio-${i}`"
-              class="home--portfolio__container--wrapper">
+              class="home--portfolio__container--wrapper2">
               <CardPortfolioSecond :item="item" />
             </div>
           </div>
