@@ -88,12 +88,12 @@
     "thumbnail_img": "demo-4.png",
     "demo_img": "demo-4.png",
     "dashboard_img": "dashboard-4.png",
-    "flowchart_img": "flowchart-1.jpg",
+    "flowchart_img": "flowchart-4.jpg",
     "authors": [
       {
         "image": "joshua.jpg",
         "name": "Joshua La'la, S.Kom, M.Kom",
-        "biography": "He was born in Tangerang, Indonesia. He studies in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models and optimization methods."
+        "biography": "He was born in Manado, Indonesia. He studied in the Computer Science Department, BINUS Graduate Program - Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. His research interest includes decision support models, and machine learning."
       }
     ],
     "supervisors": [
@@ -103,8 +103,8 @@
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
     ],
-    "title": "Decision Support Model for Determining Green Cities in Indonesia",
-    "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
+    "title": "Model to Determine Green City (MDGC)",
+    "description": "Decision Support Model (DSM) based on fuzzy logic to observe the green city in Indonesia. By operating the main method fuzzy slope and multi-stage taking into account six types of categories (i.e. electricity, water, air, building land, transportation, and waste), a DSM for evaluating the green city score was fruitfully executed. In this fuzzy slope, it is a slope calculation that will be an input for each category parameter so that you will get an output for each category in determining a green city. And this multi-stage is the various categories that are carried out in stages or one by one in each category so that when you get an output from each category, that output will become an input in determining green cities and will get a crisp output from each city or known as the green city score.",
     "author": "Joshua La'la",
     "date": "25 December, 2022",
     "tag": "Multistage Fuzzy Logic",
