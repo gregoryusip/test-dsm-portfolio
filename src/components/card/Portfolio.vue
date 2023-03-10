@@ -29,9 +29,9 @@
         <p>{{ item.tag }}</p>
       </div>
     </div>
-    <h3 class="card-portfolio__title">
+    <h4 class="card-portfolio__title">
       {{ item.title }}
-    </h3>
+    </h4>
     <p class="card-portfolio__author">
       By: <span>{{ authors }}</span>
     </p>
