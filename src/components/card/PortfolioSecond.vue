@@ -6,9 +6,9 @@
     <h6 class="card-portfolio__title">
       {{ item.title }}
     </h6>
-    <p class="card-portfolio__author">
+    <!-- <p class="card-portfolio__author">
       By: <span>{{ authors }}</span>
-    </p>
+    </p> -->
     <div class="card-portfolio__button">
       <router-link
         :to="`/portfolio/${item.id}`"
