@@ -19,7 +19,7 @@
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
     ],
-    "title": "Model To Determine Employee Salary (MDES)",
+    "title": "MODES: Model for Determining Employee Salary",
     "description": "This DSM was developed using a multistage fuzzy logic method. This DSM uses 18 parameters, which are divided into four major categories: personal information, skills, attitudes, and experience. These 18 parameters are age, marital status, dependents, distance, skill understanding, job knowledge, speed of work, quantity of work, quality of work, attitude, discipline, responsibility, honesty, achievement, current position, current salary, and works experience.",
     "author": "Gregoryus Imannuel Perdana, S.Kom, M.Kom",
     "date": "26 December, 2022",
@@ -47,7 +47,7 @@
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
     ],
-    "title": "GDSM for Startup Funding",
+    "title": "MOSTART: Model for Startup Funding",
     "description": "The model was developed to suggest startup funding amount from private venture capital (PVC) and government venture capital (GVC) perspectives. The model process twenty-two parameters (fifthteen fuzzy and seven nonfuzzy) from six categories using multistage fuzzy logic (MFL) and simple mathematical method (SMM). Two experts from PVC and GVC were interviewed to make the model more robust.",
     "author": "Muhammad Donny Devanda",
     "date": "22 December, 2022",
@@ -75,7 +75,7 @@
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
     ],
-    "title": "DSM for Project Software Team",
+    "title": "MOPROS: Model for Making Project Team",
     "description": "DSM was developed using the fuzzy c-means method with 16 parameters used as decision support, where 5 parameters were personality types, and 11 parameters were soft skills.",
     "author": "Rizky Martin",
     "date": "25 December, 2022",
@@ -103,7 +103,7 @@
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
     ],
-    "title": "Model to Determine Green City (MDGC)",
+    "title": "MOGREEN: Model for Determining Green City",
     "description": "Decision Support Model (DSM) based on fuzzy logic to observe the green city in Indonesia. By operating the main method fuzzy slope and multi-stage taking into account six types of categories (i.e. electricity, water, air, building land, transportation, and waste), a DSM for evaluating the green city score was fruitfully executed. In this fuzzy slope, it is a slope calculation that will be an input for each category parameter so that you will get an output for each category in determining a green city. And this multi-stage is the various categories that are carried out in stages or one by one in each category so that when you get an output from each category, that output will become an input in determining green cities and will get a crisp output from each city or known as the green city score.",
     "author": "Joshua La'la",
     "date": "25 December, 2022",
@@ -131,7 +131,7 @@
         "biography": "He is an associate professor and faculty member of the Computer Science Department, BINUS Graduate Program—Master of Computer Science, Bina Nusantara University, Jakarta, Indonesia. He graduated from the Mathematics and Informatics Department of Doctoral Program at Göttingen University, Germany, where his doctoral research was conducted specifically in the environmental-informatics field. His research interest is regarding the decision support model."
       }
     ],
-    "title": "Model for Determining Tweet Category (MDTC)",
+    "title": "MOTWEET: Model for Evaluating Tweet",
     "description": "This Decision Support Model (DSM) was developed using several stages, namely manual labeling, lexical analysis, and multi-stage fuzzy logic. The DSM utilizes 11 primary parameters, which include severity of harm, violence, hate, aggression, swearing terms, dominant personality, emojis, relationship, imbalance power, repetition, and visibility among peers. The severity of harm parameter is determined using the manual labeling method, while violence, hate, aggression, swearing terms, and dominant personality are analyzed using lexical analysis. The parameters of emojis, relationship, power imbalance, repetition, and visibility among peers are determined using multi-stage fuzzy logic, and each main parameter in the multi-stage fuzzy logic has sub-parameters. The model's primary objective is to distinguish between cyberbullying and banter, which can be challenging due to their close resemblance and frequent misclassification.",
     "author": "Darwin Samalo",
     "date": "25 December, 2022",
