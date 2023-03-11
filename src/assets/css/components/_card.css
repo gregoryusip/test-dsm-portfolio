@@ -25,10 +25,10 @@
     }
 
     &__title {
-      @apply w-full  px-5 mb-2;
+      @apply w-full flex-grow  px-5 mb-4;
     }
     &__author {
-      @apply font-normal flex-grow text-sm text-dark-gray px-5 pb-6;
+      @apply font-normal text-sm text-dark-gray px-5 pb-6;
 
       span {
         @apply font-bold;
