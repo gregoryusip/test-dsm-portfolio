@@ -1,5 +1,6 @@
 <script setup>
 import CardPortfolio from '../components/card/Portfolio.vue';
+import CardPortfolioList from '../components/card/PortfolioList.vue';
 </script>
 
 <template>
@@ -18,7 +19,7 @@ import CardPortfolio from '../components/card/Portfolio.vue';
               v-for="(item, i) in portfolios"
               :key="`portfolio-${i}`"
               class="home--portfolio__container--wrapper">
-              <CardPortfolio :item="item" />
+              <CardPortfolioList :item="item" />
             </div>
           </div>
         </div>

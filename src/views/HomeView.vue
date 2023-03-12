@@ -2,6 +2,7 @@
 import TheWelcome from '../components/TheWelcome.vue';
 import CardPortfolio from '../components/card/Portfolio.vue';
 import CardPortfolioSecond from '../components/card/PortfolioSecond.vue';
+import CardPortfolioList from '../components/card/PortfolioList.vue';
 </script>
 
 <template>
@@ -67,8 +68,8 @@ import CardPortfolioSecond from '../components/card/PortfolioSecond.vue';
             <div
               v-for="(item, i) in portfolios"
               :key="`portfolio-${i}`"
-              class="home--portfolio__container--wrapper2">
-              <CardPortfolioSecond :item="item" />
+              class="home--portfolio__container--wrapper">
+              <CardPortfolioList :item="item" />
             </div>
           </div>
         </div>
