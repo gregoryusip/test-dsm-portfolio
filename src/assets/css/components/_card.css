@@ -59,6 +59,23 @@
     }
   }
 
+  &-portfoliolist {
+    @apply w-full flex flex-row flex-wrap border-[1px] border-primary-one  rounded-lg cursor-pointer transition-all duration-300 group-hover:bg-primary-three overflow-hidden p-4;
+
+    &__icon {
+      @apply w-fit;
+
+      img {
+        @apply w-12 h-12;
+      }
+    }
+
+    &__title {
+      @apply pl-6;
+      width: calc(100% - 3rem);
+    }
+  }
+
   &-detail--portfolio {
     @apply w-full flex flex-col mb-4 lg:mb-0;
 
@@ -108,14 +125,6 @@
     }
     &--date {
       @apply text-right;
-    }
-  }
-
-  &-sticky-categories {
-    @apply w-full py-4 border-b-[1px] border-primary-one cursor-pointer transition-all duration-500;
-
-    &:hover {
-      @apply bg-primary-one pl-4;
     }
   }
 }
