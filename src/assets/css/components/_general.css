@@ -32,7 +32,7 @@
       }
 
       &--img {
-        @apply w-[60%] object-cover mx-auto lg:ml-auto;
+        @apply w-[90%] 2xl:w-[80%] object-cover mx-auto;
       }
     }
 
