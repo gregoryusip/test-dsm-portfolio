@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="site-container">
       <p class="footer-copyright">
-        © Copyright DSM Bina Nusantara University 2023. All rights reserved
+        © Copyright RIG-Q&DS - BINUS University. All rights reserved
       </p>
     </div>
   </div>
